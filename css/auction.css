@@ -1,0 +1,123 @@
+/* styles.css */
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Main Container */
+main {
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Auction Title */
+main h2 {
+    font-size: 1.8rem;
+    color: #0b6efd;
+    margin-bottom: 10px;
+}
+
+/* Description */
+main p {
+    margin: 8px 0;
+    font-size: 1rem;
+}
+
+/* Current price */
+#current-price {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #e63946;
+}
+
+/* Bid Section */
+#bid-section {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#bid-section input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border 0.2s;
+}
+
+#bid-section input:focus {
+    border-color: #0b6efd;
+}
+
+#bid-btn {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background: #0b6efd;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#bid-btn:hover {
+    background: #084298;
+}
+
+#bid-msg {
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #28a745;
+    /* green for success */
+}
+
+/* Bids list */
+h3 {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    color: #222;
+}
+
+#bids-list {
+    list-style: none;
+    margin-top: 10px;
+}
+
+#bids-list li {
+    padding: 10px;
+    background: #f8f9fa;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+/* Links */
+a {
+    color: #0b6efd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
