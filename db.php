@@ -1,7 +1,7 @@
 <?php
 // db.php
 $host = '127.0.0.1';
-$db = 'auction_db';
+$db = 'auction';
 $user = 'root';
 $pass = ''; // set your DB password
 $charset = 'utf8mb4';
